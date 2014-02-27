@@ -1,0 +1,10 @@
+The evaluation jar file  could be run as : 
+
+java -jar SpRLEval.jar file1.xml file2.xml result.txt
+
+file1.xml contains the actual labeling (Ground truth data) and file2.xml contains the predictions.  You should specify an arbitrary file name such that the results are saved in, for example the result.txt.
+The results are reported for each individual spatial role, and for the whole triple that is strictly correct with all three components and finally the triple type means the triples that have both correct component and a correct general type. 
+The evaluation is based on the identifiers of the words in the sentences which indicates the words' index (position) in the sentence.
+
+Questions: Email to parisa.kordjamshidi@cs.kuleuven.be 
+
